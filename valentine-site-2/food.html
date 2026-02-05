@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Food Selection</title>
+    <link rel="stylesheet" href="css/food.css" />
+  </head>
+  <body>
+    <div id="foodquestion">
+      <b>What food would you like to eat?</b>
+    </div>
+
+    <div class="food-selection">
+      <div class="food-item">
+        <input
+          type="checkbox"
+          name="food"
+          value="Burgers, fries and fried chicken"
+          id="food1"
+        />
+        <label for="food1">
+          <img src="food/burgers.jpeg" alt="Burgers, fries and fried chicken" />
+          burgers and fried chicken
+        </label>
+      </div>
+      <div class="food-item">
+        <input type="checkbox" name="food" value="hotdog" id="food2" />
+        <label for="food2">
+          <img src="food/dog.jpeg" alt="hotdog" />
+          hotdog
+        </label>
+      </div>
+      <div class="food-item">
+        <input type="checkbox" name="food" value="Korean food" id="food3" />
+        <label for="food3">
+          <img src="food/koreanfood.jpeg" alt="koreanfood" />
+          korean food
+        </label>
+      </div>
+      <div class="food-item">
+        <input type="checkbox" name="food" value="pasta" id="food4" />
+        <label for="food4">
+          <img src="food/pasta.jpeg" alt="pasta" />
+          pasta
+        </label>
+      </div>
+      <div class="food-item">
+        <input type="checkbox" name="food" value="pizza" id="food5" />
+        <label for="food5">
+          <img src="food/pizza.jpeg" alt="pizza" />
+          pizza
+        </label>
+      </div>
+      <div class="food-item">
+        <input type="checkbox" name="food" value="salad" id="food6" />
+        <label for="food6">
+          <img src="food/salad.jpeg" alt="salad" />
+          salad
+        </label>
+      </div>
+      <div class="food-item">
+        <input type="checkbox" name="food" value="steak" id="food7" />
+        <label for="food7">
+          <img src="food/steak.jpeg" alt="steak" />
+          steak
+        </label>
+      </div>
+      <div class="food-item">
+        <input type="checkbox" name="food" value="sushi" id="food8" />
+        <label for="food8">
+          <img src="food/sushi.jpeg" alt="sushi" />
+          sushi
+        </label>
+      </div>
+    </div>
+    <button class="button" id="continueBtn">
+      Continue Hihihhh... 
+    </button>
+    <script>
+      document.getElementById('continueBtn').addEventListener('click', function() {
+        const selectedFoods = [];
+        const checkboxes = document.querySelectorAll('input[name="food"]:checked');
+        checkboxes.forEach(function(checkbox) {
+          selectedFoods.push(checkbox.value);
+        });
+        localStorage.setItem('selectedFoods', JSON.stringify(selectedFoods));
+        window.location.href = 'dessert.html';
+      });
+    </script>
+  </body>
+</html>

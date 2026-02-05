@@ -1,0 +1,56 @@
+🍷 *Moonshine Valentine Project - Complete Data Summary*
+
+📅 Collected: 2026-02-05 22:47:44
+
+📋 *PAGES OVERVIEW:*
+
+1️⃣ *Valentine Question*
+   Question: Will you be my valentine?
+   Options: Yes, No
+
+2️⃣ *Date Selection*
+   Question: Are you free on ...
+   Input: date picker
+
+3️⃣ *Food Options* 🍕
+   Question: What food would you like to eat?
+   Options:
+   1. Burgers, fries and fried chicken
+   2. hotdog
+   3. Korean food
+   4. pasta
+   5. pizza
+   6. salad
+   7. steak
+   8. sushi
+
+4️⃣ *Dessert Options* 🍰
+   Question: Which dessert we eatin cuh
+   Options:
+   1. boba
+   2. churro
+   3. che
+   4. mochi
+   5. randombun (random bun)
+   6. taiyaki
+
+5️⃣ *Activity Options* 🎮
+   Question: What are we doing after?
+   Options:
+   1. aquarium
+   2. arcade
+   3. cinema
+   4. ceramics
+   5. exhibition (kunsthalle)
+   6. park
+
+6️⃣ *Thank You Page*
+   Message: Thank you for being my girlfriend
+   Audio: congratulations.mp3
+
+📸 *Total Images:*
+   Food images: 14
+   Activity images: 6
+   Other images: 2
+
+🌐 Project URL: https://mehedyhassanratul.github.io/moonshine/

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Activities</title>
+    <link rel="stylesheet" href="css/activities.css" />
+  </head>
+  <body>
+    <div id="activityquestion"><b>What are we doing after?</b></div>
+    <div class="activities-selection">
+      <div class="activity-item">
+        <input
+          type="checkbox"
+          name="activities"
+          value="aquarium"
+          id="activity1"
+        />
+        <label for="activity1">
+          <img src="activities/aquarium.jpeg" alt="aquarium" />
+          aquarium
+        </label>
+      </div>
+      <div class="activity-item">
+        <input
+          type="checkbox"
+          name="activities"
+          value="arcade"
+          id="activity2"
+        />
+        <label for="activity2">
+          <img src="activities/arcade.jpeg" alt="arcade" />
+          arcade
+        </label>
+      </div>
+      <div class="activity-item">
+        <input
+          type="checkbox"
+          name="activities"
+          value="cinema"
+          id="activity3"
+        />
+        <label for="activity3">
+          <img src="activities/cinema.jpeg" alt="cinema" />
+          cinema
+        </label>
+      </div>
+      <div class="activity-item">
+        <input
+          type="checkbox"
+          name="activities"
+          value="ceramics"
+          id="activity4"
+        />
+        <label for="activity4">
+          <img src="activities/keramika.jpeg" alt="ceramics" />
+          ceramics
+        </label>
+      </div>
+      <div class="activity-item">
+        <input
+          type="checkbox"
+          name="activities"
+          value="kunsthalle"
+          id="activity5"
+        />
+        <label for="activity5">
+          <img src="activities/kunsthalle.jpeg" alt="kunsthalle" />
+          exhibition
+        </label>
+      </div>
+      <div class="activity-item">
+        <input
+          type="checkbox"
+          name="activities"
+          value="park"
+          id="activity6"
+        />
+        <label for="activity6">
+          <img src="activities/park.jpeg" alt="park" />
+          park
+        </label>
+      </div>
+    </div>
+    <button class="button" id="continueBtn">
+      Last page ... 
+    </button>
+    <script>
+      document.getElementById('continueBtn').addEventListener('click', function() {
+        const selectedActivities = [];
+        const checkboxes = document.querySelectorAll('input[name="activities"]:checked');
+        checkboxes.forEach(function(checkbox) {
+          selectedActivities.push(checkbox.value);
+        });
+        localStorage.setItem('selectedActivities', JSON.stringify(selectedActivities));
+        window.location.href = 'lastpage.html';
+      });
+    </script>
+  </body>
+</html>

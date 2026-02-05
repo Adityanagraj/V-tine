@@ -1,0 +1,92 @@
+{
+  "project_name": "Will You Be My Valentine Yalini?",
+  "collected_at": "2026-02-05 22:47:44",
+  "pages": {
+    "index": {
+      "title": "Be My Valentine",
+      "question": "Will you be my valentine Yalini Yalina ?",
+      "options": [
+        "Yes",
+        "No"
+      ]
+    },
+    "date": {
+      "title": "Date Selection",
+      "question": "Are you free on ...",
+      "input_type": "date picker"
+    },
+    "food": {
+      "title": "Food Selection",
+      "question": "What food would you like to eat?",
+      "options": [
+        "Burgers, fries and fried chicken",
+        "hotdog",
+        "Korean food",
+        "pasta",
+        "pizza",
+        "salad",
+        "steak",
+        "sushi"
+      ]
+    },
+    "dessert": {
+      "title": "Dessert Selection",
+      "question": "Which dessert we eatin cuh",
+      "options": [
+        "boba",
+        "churro",
+        "che",
+        "mochi",
+        "randombun (random bun)",
+        "taiyaki"
+      ]
+    },
+    "activities": {
+      "title": "Activities Selection",
+      "question": "What are we doing after?",
+      "options": [
+        "aquarium",
+        "arcade",
+        "cinema",
+        "ceramics",
+        "exhibition (kunsthalle)",
+        "park"
+      ]
+    },
+    "lastpage": {
+      "title": "Thank You",
+      "message": "Thank you for being my girlfriend",
+      "audio": "congratulations.mp3"
+    }
+  },
+  "images": {
+    "food": [
+      "burgers.jpeg",
+      "dog.jpeg",
+      "koreanfood.jpeg",
+      "pasta.jpeg",
+      "pizza.jpeg",
+      "salad.jpeg",
+      "steak.jpeg",
+      "sushi.jpeg",
+      "boba.jpeg",
+      "churro.jpeg",
+      "che.jpeg",
+      "mochi.jpeg",
+      "randombun.jpeg",
+      "taiyaki.jpeg"
+    ],
+    "activities": [
+      "aquarium.jpeg",
+      "arcade.jpeg",
+      "cinema.jpeg",
+      "keramika.jpeg",
+      "kunsthalle.jpeg",
+      "park.jpeg"
+    ],
+    "other": [
+      "please.png",
+      "thanks.png"
+    ]
+  }
+}
